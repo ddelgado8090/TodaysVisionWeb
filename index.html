@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"">
+    <title>Today's Vision Northside</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/index.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class = "header">
+        <img class = "header_logo_img" src = "src/images/eye-logo.png">
+        <div class = "header_links">
+            <a class = "header_home" href = "index.html">Home</a>
+            <a class = "header_about" href = "about.html">About Us</a>
+            <a class = "header_services" href = "services.html">Services</a>
+        </div>
+    </header>
+
+    <!--hero background image and text-->
+    <header class = "hero">
+        <h1 class = "hero_title">Welcome to <span class = "break"> Today's Vision Northside!</span></h1>
+    </header>
+
+    <!--paragraph-->
+    <div class = "two_boxes_container">
+        <header class = "app_box">
+            <h1 class = "book_app">Book an Appointment</h1>
+            <div class = "booking_container">
+                <p class = "booking_text">
+                    Are you ready to take the next step towards better vision and eye health? At Today's Vision Northside, we are dedicated to providing exceptional eye care tailored to meet your unique needs.
+                    <p class = "booking_text">Call to book your appointment with us today!</p>
+                </p>
+                <div class = "button_container">
+                    <button class = "call_button">Call Us</button>
+                </div>
+            </div>
+        </header>
+
+        <!--hours box-->
+
+        <header class = "hours_box">
+            <h1 class = "hours_text">Our Hours</h1>
+            <div class = "hour_container">
+                <p id="current_day"></p>
+                <p id="business_hours"></p>
+                <p id = "closed_daily"></p>
+
+                <div class = "button_container_hours">
+                    <button id = "more_button">More Hours</button>
+                </div>
+                <div id = "more_times"></div> <!--Container for more times showing-->
+            </div>
+            <script src="script.js"></script>
+
+        </header>
+    </div>
+
+    <!--Education box-->
+    <main class = "wrapper container">
+        <div class = "edu_container">
+            <h1 class = "edu_title">Educate Yourself!</h1>
+            <p class = "overall_description">
+                Below are three videos you can watch to learn more about how the sun affects your eyes, what astigmatism is, and the effects of glaucoma!
+            </p>
+        </div>
+
+        <article class = "vid_container">
+            <h3 class = "vid_title">View the World of Astigmatism</h3>
+            <img class = "edu_img" src = "src/images/astigmatism.jpg">
+            <a class ="button_container" href = "https://www.youtube.com/watch?v=cwYxq28-PBk">
+                <button class = "vid_link"> Watch</button>
+            </a>
+        </article>
+
+        <article class = "vid_container">
+            <h3 class = "vid_title">The Sun and Your Eyes</h3>
+            <img class = "edu_img sun_img" src = "src/images/sun.png">
+            <a class ="button_container" href = "https://www.youtube.com/watch?v=6E5Ds5GHu9c">
+                <button class = "vid_link"> Watch</button>
+            </a>
+        </article>
+
+        <article class = "vid_container">
+            <h3 class = "vid_title">View the World of Glaucoma</h3>
+            <img class = "edu_img" src = "src/images/glaucoma.jpg">
+            <a class ="button_container" href = "https://www.youtube.com/watch?v=40eE6LY3Ss0">
+                <button class = "vid_link"> Watch</button>
+            </a>
+        </article>
+    </main>
+
+    <!--footer-->
+    <footer class = "footer">
+        <div class = "footer_links">
+            <img class = "footer_logo_img" src = "src/images/eye-logo-f.png">
+            <a class = "f_link" href = "">Instagram</a>
+            <a class = "f_link" href="">Facebook</a>
+            <a class = "f_link" href="">Number: 123-456-7890</a>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

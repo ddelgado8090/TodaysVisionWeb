@@ -1,0 +1,15 @@
+{
+  "name": "amadorsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniela Delgado <ddelgado@middlebury.edu>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "react": "^19.0.0"
+  }
+}
